@@ -16,7 +16,7 @@ function setup(){
 engine = Engine.create();
 world = engine.world;
 
-canvas = createCanvas(400,700);
+canvas = createCanvas(400,600);
 umbrella = new Umbrella(200,450);
 if (frameCount % 120 === 0){
     for( var i =0; i<maxDrops; i++){
